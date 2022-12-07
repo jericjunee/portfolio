@@ -7,7 +7,7 @@
 	<title>Jeric June Logan</title>
 </svelte:head>
 
-<main class="bg-secondary">
+<main class="bg-secondary scroll-smooth">
 	<Header />
 	<slot />
 </main>

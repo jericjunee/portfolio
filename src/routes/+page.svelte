@@ -11,6 +11,7 @@
 </script>
 
 <section
+	id="hero"
 	class="flex flex-col justify-center bg-header-hero h-screen bg-no-repeat bg-cover pt-20 px-64 gap-5 text-light relative"
 >
 	<h1 class="text-6xl font-extrabold">Jeric June Logan</h1>
@@ -26,6 +27,26 @@
 	{/each}
 </section>
 
-<section class="py-64 bg-secondary-light">
-	<h2 class="text-5xl text-center">About Me</h2>
+<section id="about" class="flex flex-col gap-10 items-center py-32 bg-secondary-light text-center">
+	<h2 class="text-5xl text-center font-semibold">about me</h2>
+	<img class="w-1/5 rounded-full" src="../../images/me.jpg" alt="" />
+	<div class="w-1/2 flex flex-col gap-10 text-lg">
+		<p>
+			Hi! I'm Jeric. I graduated Bachelor of Science in Computer Science on Pamantasan ng Lungsod ng
+			Maynila.
+		</p>
+		<p>
+			To be honest, I do a lot of things. Programming, sports, music. You name it. But my passion is
+			in Web Development. I do have a plenty of experiences as I become a professional programmer. I
+			do a lot of freelancing since my college days and made some websites for them.
+		</p>
+		<p>I am currently 22 years old and residing at Manila.</p>
+	</div>
+</section>
+
+<section id="projects" class="flex flex-col gap-5 py-32">
+	<h2 class="text-5xl text-center font-semibold">my projects</h2>
+	<p class="text-center text-lg">
+		Here are some of my projects as I continue my journey as a Web Developer.
+	</p>
 </section>
